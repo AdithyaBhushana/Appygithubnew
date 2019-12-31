@@ -1,0 +1,22 @@
+<div id="headers" class="header container-fluid" >
+  <div class="row margin-0">
+  
+    <div class=" col-md-8">
+      <div class="banner">
+        <p>Github</p>
+      </div>
+        </div>
+    </div>
+  </div>
+
+  
+ <div class="container-fluid">
+   <div class="row">
+     <div class="col-md-12" *ngIf="tableData" style="margin-top: 100px;">
+
+       <app-grid-table [columns]="headers" [enableSearch]="true" [pagination]="true" [Data]="tableData" [pagesize]="10"
+         [TotalItem]=table_length (clickedIcon)="editIcon($event,notifyTemplate)">
+       </app-grid-table>
+
+     </div>
+   </div>

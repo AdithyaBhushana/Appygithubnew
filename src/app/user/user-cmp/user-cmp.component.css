@@ -1,0 +1,29 @@
+/* header */
+.header {
+  background: #e3001f;
+  height: 55px;
+  position: fixed;
+  z-index: 1000;
+  width: 100%;
+  top: 0;
+  left: auto;
+  right: 0;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, .2);
+  max-width: calc(100% );
+  
+}
+
+.header .banner p {
+  color: #fff;
+  line-height: 55px;
+  font-size: 22px;
+  margin: 0;
+  text-align: center;
+}
+
+
+
+
+
+
+
